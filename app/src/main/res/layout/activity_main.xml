@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select any of the following "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_marginTop="50dp">
+
+      <Button
+          android:id="@+id/btn1"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="Simple Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+
+          />
+      <Button
+          android:id="@+id/btn2"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="BigText Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+
+          />
+      <Button
+          android:id="@+id/btn3"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="Picture Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+
+          />
+      <Button
+          android:id="@+id/btn4"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="Inbox Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+          />
+      <Button
+          android:id="@+id/btn5"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="chat Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+          />
+      <Button
+          android:id="@+id/btn6"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="Action Notification"
+          android:background="#519EDC"
+          android:drawableRight="@drawable/ic_baseline_notifications_24"
+          android:paddingRight="10dp"
+          />
+
+  </LinearLayout>
+
+</LinearLayout>

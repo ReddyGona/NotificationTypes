@@ -1,0 +1,2 @@
+# NotificationTypes
+in Android app
